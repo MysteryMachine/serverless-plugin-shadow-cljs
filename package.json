@@ -1,0 +1,23 @@
+{
+  "name": "serverless-plugin-shadow-cljs",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "shadow-cljs watch app",
+    "compile": "shadow-cljs compile app",
+    "build": "shadow-cljs release app"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "shadow-cljs": "^2.6.23",
+    "source-map-support": "^0.5.9",
+    "ws": "^6.1.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "node-watch": "^0.5.8",
+    "path": "^0.12.7"
+  }
+}

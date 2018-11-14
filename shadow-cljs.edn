@@ -1,0 +1,9 @@
+{:source-paths ["src"]
+ :builds {:plugin
+          {:target :node-library
+           :output-to "index.js"
+           :exports-var plugin.core/Plugin}
+          :repl
+          {:target :node-script
+           :output-to "target/index.js"
+           :main plugin.core/repl}}}
