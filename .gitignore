@@ -4,3 +4,6 @@ target/
 /yarn.lock
 .shadow-cljs/
 .nrepl-port
+.DS_Store
+*/.DS_Store
+package-lock.json
